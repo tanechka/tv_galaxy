@@ -3,14 +3,13 @@ body
     font-family: Verdana, Arial, sans-serif; 
     background-image: url(background.png);
     min-height: 100%;
-     position: relative;
+    position: relative;
 }
 
 *
 {
 	padding: 0;
     margin: 0;
-    
 }
 
 * html body
@@ -113,14 +112,7 @@ a:hover
     padding-right: 10px;
     padding-bottom: 2px;
 }
-/*.paragraph div
-{
-	margin-bottom: 5px;
-	color: white;
-	text-align:center;
-	padding-top: 4px;
-	font: bold italic 10pt Arial; 
-}*/ 
+
 .greenButton
 {
     background-image: url("../img/ok.png");
@@ -198,34 +190,35 @@ a:hover
 	padding-left:10px;
 }
  .titleMenu
- {
+{
 	font: bold italic 14pt Arial;
 	color: Orange;
 	vertical-align: 2px;
 	padding-left: 5px;
- }
+}
  #menu p
- { 
+{ 
 	padding-left: 20px;
 	
- }
+}
+
 .line
- {
+{
 	border-bottom-style: dotted;
 	margin-top: 10px;
 	margin-left: 20px;
 	margin-right: 20px;
 	border-color: lightgray;
 	border-width: 2px;
- }
+}
  
  .TvCenter
- {
+{
 	font: italic 10pt Arial;
 	color: lightgray;
 	padding-top: 15px;
 	padding-bottom: 5px;
- }
+}
 .time
 {
 	font: bold 10pt Arial;
@@ -408,4 +401,5 @@ a:hover
 }
 .allContent
 { min-width: 990px;
-  padding-bottom: 20px;}
+  padding-bottom: 20px;
+}
