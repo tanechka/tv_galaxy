@@ -1,0 +1,410 @@
+body
+{
+    font-family: Verdana, Arial, sans-serif; 
+    background-image: url(background.png);
+    min-height: 100%;
+     position: relative;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+* html body
+{
+    height: 100%;
+}
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+	background-image: url(../img/background.png);
+}
+
+a:hover
+{
+    text-decoration: none;
+
+}
+
+
+.header
+{
+	overflow: hidden;
+	padding: 40px;
+	min-width:1140px;	
+}
+
+.tv
+{
+	float:left;
+	width: 20%;
+	max-width: 290px;
+	min-width: 270px;
+	margin-right: 50px;
+}
+.tv span
+{
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-family: Arial Narrow;
+    font-size: 35px;
+}
+
+.editBox1
+{
+    background-image: url(../img/Rectangle.png);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 240px;
+    height: 26px;
+}
+
+.edit1
+{
+    color: #666666;
+    border: 0;
+    font-style: italic;
+    width: 180px;
+    height: 25px;
+    padding-left: 15px;
+    outline: none;
+    font-family: Tahoma;
+    font-size: 11pt;
+}
+
+.editBox1 img
+{
+    padding-left: 15px;
+}
+.paragraph
+{
+    width: 20%;
+    float:left;
+	max-width: 260px;
+	min-width: 250px;
+	margin-right: 40px;
+}
+
+.header a:hover
+{
+    text-decoration: none;
+    color: Orange;
+    display: inline;
+}
+
+.header a
+{
+    font-style: italic;
+    font-size: 11pt;
+    font-family: Arial;
+    color: Green;
+    cursor: pointer;
+    font-weight: bold;
+}
+.paragraph img 
+{
+    padding-right: 10px;
+    padding-bottom: 2px;
+}
+/*.paragraph div
+{
+	margin-bottom: 5px;
+	color: white;
+	text-align:center;
+	padding-top: 4px;
+	font: bold italic 10pt Arial; 
+}*/ 
+.greenButton
+{
+    background-image: url("../img/ok.png");
+	background-repeat:no-repeat;
+	width: 82px;
+	height: 27px;
+	cursor: pointer;
+	opacity: 1; 
+	filter: alpha(Opacity=100); 
+	margin-bottom: 5px;
+	color: white;
+	text-align:center;
+	padding-top: 4px;
+	font: bold italic 10pt Arial; 
+	margin-top: 10px;
+	
+}
+.greenButton:hover
+{
+	opacity: 0.85; 
+	filter: alpha(Opacity=85); 
+}
+.paragraphToo
+{
+	width: 25%;
+	float:left;
+	max-width: 370px;
+	min-width: 315px;
+	margin-right: 35px;
+}
+.paragraphToo img 
+{
+    padding-right: 10px;
+    padding-bottom: 2px;
+}
+
+.imgSchedule
+{
+	width: 5%;
+	float:right;
+	margin-right:40px;
+}
+.imgSchedule img, .imgSchedule span
+{
+	position: absolute;
+}
+
+.img1{ z-index:1;}
+.img2{margin-top: -19px; margin-left: -12px;}
+.img3{margin-left: -31px; margin-top: -16px;}
+.imgSchedule span
+{ 
+	z-index:2; 
+	font: bold italic 10pt Arial;
+	color:white;
+	text-align: center;
+	margin-top: 25px; 
+	width: 100px;
+}
+
+#menu
+{
+    width: 315px; 
+    background: white; 
+    float: right; 
+	margin-right: 15px;
+	border-radius:6px; 
+	-webkit-border-radius:6px; 
+	-moz-border-radius:5px; 
+	-khtml-border-radius:10px;
+}
+#menu img
+{
+	padding-top:15px;
+	padding-left:10px;
+}
+ .titleMenu
+ {
+	font: bold italic 14pt Arial;
+	color: Orange;
+	vertical-align: 2px;
+	padding-left: 5px;
+ }
+ #menu p
+ { 
+	padding-left: 20px;
+	
+ }
+.line
+ {
+	border-bottom-style: dotted;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-color: lightgray;
+	border-width: 2px;
+ }
+ 
+ .TvCenter
+ {
+	font: italic 10pt Arial;
+	color: lightgray;
+	padding-top: 15px;
+	padding-bottom: 5px;
+ }
+.time
+{
+	font: bold 10pt Arial;
+}
+.time a
+{
+  padding-left: 5px;
+  color: green;
+  font-family: Arial;
+  font-size: 10pt;
+}
+ #menu a:hover
+{
+   text-decoration: none; 
+}
+.allSeries
+ {
+	float:right;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	color: Orange;
+	
+}
+.allSeries a
+{
+	color: Orange;
+	font-size: 11pt;
+	padding-left: 5px;
+	vertical-align: 4px;
+}
+.allSeries a:hover
+{
+	text-decoration: none; 
+}
+
+#content
+{
+    background: white; 
+    margin-right: 370px;
+    margin-bottom: 15px;
+	margin-left: 30px;
+	border-radius:6px; 
+	-webkit-border-radius:6px; 
+	-moz-border-radius:5px; 
+	-khtml-border-radius:10px;
+	padding: 15px;
+	min-width: 560px;
+}
+
+#content h1
+{
+	font: bold italic 16pt Arial;
+	color: Orange;
+	text-align:left;
+}
+.breadCrumbs ,.breadCrumbs a
+{
+	color: green;
+	padding: 1.5px;
+	font-size: 8pt;
+	font-family: Arial;
+	padding-bottom: 20px;
+	
+}
+
+.description 
+{
+	font-size: 12pt;
+	font-family: Arial;
+	padding-right: 20px;
+	overflow: hidden;	
+}
+
+.description img
+{
+	padding-right: 20px;
+	padding-bottom: 20px;
+	float:left;
+}
+.description div
+{
+	font-size: 10pt;
+	font-family: Arial;
+	margin-bottom: 10px;
+	
+}
+.description p
+{    
+	
+	display:inline;
+	font-weight:bold;
+	padding-right: 3px;
+	line-height: 15px;
+}
+.description a {color: green; }
+.starFive{ display: inline-block; margin-left: -18px;}
+.OrangeLink {
+	color: orange;
+	font-size: 9pt;
+	padding-left: 0px;
+	vertical-align: 3px;
+	font-weight: italic;
+	font-family: Arial;
+}
+.comment
+{
+	margin-top: 15px;
+}
+.answer
+{
+	padding-top: 20px;
+	color: Orange;
+	font: bold italic 13pt Arial;
+}
+.topicAndComment
+{
+	font: bold 10pt Arial;
+}
+.topicAndComment div 
+{
+	padding-top: 20px;
+}
+.topicAndComment input
+{
+	width: 400px;
+}
+.topicAndComment textarea
+{
+	width: 75%;
+	height: 100px;
+}
+.header input
+{
+    width: 180px;
+	height: 20px;
+    background: url("img/textbox.png");
+    border: none;
+}
+.topicAndComment span
+{
+	padding-top:10px;
+}
+.greenButtonContent
+{
+
+	margin-top: 10px;
+	background-image: url("../img/ok.png");
+	background-repeat: no-repeat;
+	background-size: 90px;
+	height: 30px;
+}
+.greenButtonContent span
+{
+	margin-bottom: 5px;
+	color: white;
+	text-align:center;
+	padding-top: 4px;
+	padding-left:5px;
+	font: bold italic 10pt Arial; 
+}
+
+
+#footer
+{
+    position: absolute;
+    bottom: 0;
+	width: 97%;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: white;
+	border-radius:6px; 
+	-webkit-border-radius:6px; 
+	-moz-border-radius:5px; 
+	-khtml-border-radius:10px;
+	padding: 10px;
+	color: green;
+	font: italic 10pt Arial;
+	height: 20px;
+}
+.allContent
+{ min-width: 990px;
+  padding-bottom: 20px;}
